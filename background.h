@@ -1,8 +1,8 @@
-#ifndef ASMA_H
-#define ASMA_H
+#ifndef BACKGROUND_H
+#define BACKGROUND_H
 
 #include<SDL/SDL.h>
-#include<SDL/SDL_asma.h>
+#include<SDL/SDL_background.h>
 
 typedef struct
 {
@@ -19,4 +19,4 @@ void scrolling (background * b, int direction, int pasAvancement);
 void scrolling (SDL_Rect * b, int direction ,int pasAvancement);
 
 
-#endif //ASMA_H
+#endif //BACKGROUND_H
