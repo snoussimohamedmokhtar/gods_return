@@ -9,6 +9,7 @@
 *
 */
 #include"entity.h"
+#include"perso.h"
 /**
 * @brief To initialize the entity .
 * @param ennemi enemy 
@@ -145,7 +146,6 @@ void deplacerIA(Entity *e,Player p)
 * Testing program for background scrollilng
 *
 */
-#include"perso.h"
 
 void init_perso(Player *hero, SDL_Surface *screen)
 {
