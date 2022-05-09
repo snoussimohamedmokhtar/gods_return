@@ -14,7 +14,6 @@ typedef struct
     SDL_Surface *Spritesheet;
     SDL_Rect animation,position;
     int direction;
-    float timeFrame,curentTime,PrevTime,deltaT;
 }Entity;
 
 void init_Entity(Entity *ennemi);
